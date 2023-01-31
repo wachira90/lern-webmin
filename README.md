@@ -40,3 +40,16 @@ https://prdownloads.sourceforge.net/webadmin/webmin-2.000.zip 19.3 MB
 Minimal version of Webmin, Unix tar/gzip format
 https://prdownloads.sourceforge.net/webadmin/webmin-2.000-minimal.tar.gz 1.9 MB
 ````
+
+## ubuntu 20.04
+
+````
+https://www.webmin.com/deb.html
+
+apt install perl libnet-ssleay-perl openssl libauthen-pam-perl libpam-runtime libio-pty-perl apt-show-versions python unzip shared-mime-info -y
+
+wget http://prdownloads.sourceforge.net/webadmin/webmin_2.013_all.deb
+
+dpkg --install webmin_2.013_all.deb
+````
+
